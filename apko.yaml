@@ -1,0 +1,12 @@
+contents:
+  keyring:
+    - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+  repositories:
+    - https://packages.wolfi.dev/os
+    - '@local packages'
+  packages:
+    - wolfi-base
+    - posix-libc-utils
+    - bash
+    - pixi
+

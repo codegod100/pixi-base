@@ -10,3 +10,7 @@ contents:
     - bash
     - pixi
 
+cmd: /bin/bash
+  
+archs:
+- x86_64

@@ -25,7 +25,7 @@ jobs:
       - uses: distroless/actions/apko-publish@main
         id: apko
         with:
-          config: .apko.yaml
+          config: ./apko.yaml
           tag: ghcr.io/codegod100/pixi-base:latest
       
       - shell: bash

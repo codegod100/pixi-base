@@ -9,6 +9,7 @@ contents:
     - posix-libc-utils
     - bash
     - pixi
+    - bun
 
 cmd: /bin/bash
   
